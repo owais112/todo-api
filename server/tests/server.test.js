@@ -1,3 +1,6 @@
+require('./config/config');
+
+const _ = require('lodash');
 const expect = require('expect');
 const request = require('supertest');
 
